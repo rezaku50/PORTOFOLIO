@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Ade Agustian</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #0d1117;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        nav {
+            background: #161b22;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .project-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .project-card h3 {
+            margin: 0 0 10px 0;
+        }
+
+        footer {
+            background: #0d1117;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ade Agustian</h1>
+        <p>Graphic Designer • 3D Artist • Animator</p>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#projects">Projek</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p>
+                Saya adalah seorang desainer grafis dan pengajar di bidang desain komunikasi visual
+                yang juga memiliki keahlian dalam 3D modeling, animasi, serta pengembangan konten digital.
+                Berpengalaman mengerjakan berbagai proyek kreatif mulai dari desain logo, ilustrasi, hingga 3D asset.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projek</h2>
+            <div class="projects">
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+                    <h3>Desain Logo</h3>
+                    <p>Projek pembuatan identitas visual modern dan profesional.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+                    <h3>3D Modeling</h3>
+                    <p>Model 3D berbasis Blender untuk kebutuhan animasi dan produk.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3" />
+                    <h3>Poster & Ilustrasi</h3>
+                    <p>Karya poster berkonsep modern, clean, dan mudah dipahami.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" style="margin-top: 40px;">
+            <h2 class="section-title">Kontak</h2>
+            <p style="text-align:center;">
+                Email: <strong>adeagustian@example.com</strong><br>
+                Instagram: <strong>@adeagustian</strong><br>
+                WhatsApp: <strong>08xxxxxxxxxx</strong>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        © 2025 Ade Agustian — Portfolio Website
+    </footer>
+
+</body>
+</html>
